@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NKT Tuition Center</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+  <!-- ===== Header/Navbar ===== -->
+  <header>
+    <nav class="animated-header">
+      <div class="logo">📚 NKT Smart Tuition</div>
+      <ul class="nav-links">
+        <li><a href="#index"><span>🏠</span> Home</a></li>
+        <li><a href="#Courses"><span>📘</span> Courses</a></li>
+        <li><a href="#online"><span>💻</span> Online</a></li>
+        <li><a href="#offline"><span>🏫</span> Offline</a></li>
+        <li><a href="#contact"><span>📞</span> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <h2>Empowering Bright Futures</h2>
+      <p>Learn from anywhere, anytime — your way!</p>
+      <div class="hero-buttons">
+        <button onclick="window.location.href='online.html'">Join Online</button>
+        <button onclick="window.location.href='offline.html'">Visit Center</button>
+      </div>
+    </div>
+  </section>
+
+ <section class="courses-section" id="Courses">
+    <h2 class="section-title">Our Popular Courses</h2>
+    <div class="courses-grid">
+      <div class="course-card">
+        <h3>Mathematics Mastery</h3>
+        <p>From basics to advanced problem solving. Boost your score!</p>
+        <span>🕒 Duration: 3 months</span>
+        <button>Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <h3>Science Explorer</h3>
+        <p>Physics, Chemistry, Biology simplified with real examples.</p>
+        <span>🕒 Duration: 4 months</span>
+        <button>Enroll Now</button>
+      </div>
+      <div class="course-card">
+        <h3>English Booster</h3>
+        <p>Grammar, vocabulary & speaking skills — all in one.</p>
+        <span>🕒 Duration: 2 months</span>
+        <button>Enroll Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline-section">
+    <h2 class="section-title">Your Learning Journey</h2>
+    <div class="timeline">
+      <div class="timeline-step">
+        <div class="dot"></div>
+        <div class="content">
+          <h4>📘 Foundation Level</h4>
+          <p>Concept building and basics of all subjects.</p>
+        </div>
+      </div>
+      <div class="timeline-step">
+        <div class="dot"></div>
+        <div class="content">
+          <h4>📗 Intermediate Practice</h4>
+          <p>Application-based learning with quizzes and tasks.</p>
+        </div>
+      </div>A
+      <div class="timeline-step">
+        <div class="dot"></div>
+        <div class="content">
+          <h4>📙 Advanced Level</h4>
+          <p>Problem-solving sessions, tests, and competitions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section class="offline-courses" id="offline">
+  <div class="container">
+    <h1>📚 Offline Courses</h1>
+    <div class="courses">
+
+      <div class="card">
+        <h2>Mathematics & Reasoning</h2>
+        <p><strong>Batch Timings:</strong> 9:00 AM – 11:00 AM</p>
+        <p><strong>Days:</strong> Monday to Friday</p>
+        <p class="location">📍 Nearest Center: Connaught Place, Delhi</p>
+      </div>
+
+      <div class="card">
+        <h2>Physics & Chemistry</h2>
+        <p><strong>Batch Timings:</strong> 11:30 AM – 1:30 PM</p>
+        <p><strong>Days:</strong> Monday, Wednesday, Friday</p>
+        <p class="location">📍 Nearest Center: Rajouri Garden, Delhi</p>
+      </div>
+
+      <div class="card">
+        <h2>English & Personality Dev.</h2>
+        <p><strong>Batch Timings:</strong> 2:00 PM – 4:00 PM</p>
+        <p><strong>Days:</strong> Tuesday, Thursday, Saturday</p>
+        <p class="location">📍 Nearest Center: Lajpat Nagar, Delhi</p>
+      </div>
+
+      <div class="card">
+        <h2>Computer Science (Python + SQL)</h2>
+        <p><strong>Batch Timings:</strong> 5:00 PM – 7:00 PM</p>
+        <p><strong>Days:</strong> Monday to Saturday</p>
+        <p class="location">📍 Nearest Center: Rohini Sector 9, Delhi</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="online-courses" id="online">
+  <div class="container">
+    <h1>🌐 Online Courses</h1>
+
+    <div class="course-card">
+      <div class="icon">💻</div>
+      <div class="course-details">
+        <h2>Full Stack Development</h2>
+        <p><strong>Timings:</strong> 10:00 AM – 12:00 PM</p>
+        <p><strong>Days:</strong> Mon to Fri</p>
+        <p class="location">📍 Optional Support: Noida Sector 18</p>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <div class="icon">📊</div>
+      <div class="course-details">
+        <h2>Data Science & Python</h2>
+        <p><strong>Timings:</strong> 2:00 PM – 4:00 PM</p>
+        <p><strong>Days:</strong> Mon, Wed, Fri</p>
+        <p class="location">📍 Optional Support: Gurgaon Cyber City</p>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <div class="icon">🗣️</div>
+      <div class="course-details">
+        <h2>Spoken English & Communication</h2>
+        <p><strong>Timings:</strong> 5:00 PM – 6:30 PM</p>
+        <p><strong>Days:</strong> Tue, Thu, Sat</p>
+        <p class="location">📍 Optional Support: Karol Bagh, Delhi</p>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <div class="icon">🖥️</div>
+      <div class="course-details">
+        <h2>CBSE CS (Python + SQL)</h2>
+        <p><strong>Timings:</strong> 7:00 PM – 8:30 PM</p>
+        <p><strong>Days:</strong> Mon to Sat</p>
+        <p class="location">📍 Optional Support: Dwarka Sector 10</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="contact-section" id="contact">
+  <form class="contact-form">
+    <h2>Get in Touch ✉️</h2>
+
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+    </div>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+  <div class="footer-container">
+    <!-- Column 1: Logo + About -->
+    <div class="footer-col">
+      <h2 class="footer-logo">📚 NKT Smart Tuition</h2>
+      <p>Empowering learners with quality education—online & offline. We help you shine brighter every day.</p>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="courses.html">📘 Courses</a></li>
+        <li><a href="online.html">💻 Online</a></li>
+        <li><a href="offline.html">🏫 Offline</a></li>
+        <li><a href="contact.html">📞 Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Newsletter -->
+    <div class="footer-col">
+      <h3>Subscribe</h3>
+      <p>Join our newsletter to get updates.</p>
+      <form class="subscribe-form">
+        <input type="email" placeholder="Your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <!-- Column 4: Socials -->
+    <div class="footer-col">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 NKT Smart Tuition. All rights reserved. Made with ❤️ for students.</p>
+  </div>
+</footer>
+
+
+  <!-- ===== Scripts ===== -->
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
